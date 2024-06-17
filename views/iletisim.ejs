@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim Formu</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <nav>
+            <a href="/">Anasayfa</a>
+            <a href="/iletisim">İletişim Formu</a>
+            <a href="https://www.izu.edu.tr/">İzü Web Sayfası</a>
+        </nav>
+    </header>
+
+    <!-- İletişim formu içeriği -->
+    <div class="content">
+
+        <h1>İletişim Formu</h1>
+        <form action="/iletisim" method="POST" >
+            <label for="adSoyad">Ad Soyad:</label><br>
+            <input type="text" id="adSoyad" name="adSoyad" required><br><br>
+            
+            <label for="email">E-posta Adresi:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="telefon">Telefon Numarası:</label><br>
+            <input type="tel" id="telefon" name="telefon"><br><br>
+            
+            <label for="mesaj">Mesajınız:</label><br>
+            <textarea id="mesaj" name="mesaj" rows="4" required></textarea><br><br>
+            
+            <button type="submit">Gönder</button>
+        </form>
+    </div>
+
+</body>
+</html>

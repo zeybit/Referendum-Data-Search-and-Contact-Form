@@ -14,7 +14,7 @@ npm install
 ### Database
 
 The project uses a MySQL database to store contact and referendum data. The database credentials are stored in the `.env` file.You should create a file like this ;
-```
+```env
 DB_HOST=localhost 
 
 DB_USER=root

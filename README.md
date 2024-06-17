@@ -13,7 +13,12 @@ npm install
 
 ### Database
 
-The project uses a MySQL database to store contact and referendum data. The database credentials are stored in the `.env` file.
+The project uses a MySQL database to store contact and referendum data. The database credentials are stored in the `.env` file.You should create a file like this ;
+DB_HOST=localhost
+DB_USER=root
+DB_PASS=yourpassword
+DB_NAME=iletisim_formu
+
 
 ### Running the Application
 
